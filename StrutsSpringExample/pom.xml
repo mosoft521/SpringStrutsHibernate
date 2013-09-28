@@ -18,7 +18,7 @@
         <struts.menu.version>2.4.3</struts.menu.version>
         <mysql.connector.version>5.1.9</mysql.connector.version>
         <hibernate.version>3.2.7.ga</hibernate.version>
-        <ojdbc14.version>10.2.0.3.0</ojdbc14.version>
+        <ojdbc6.version>11.2.0.1.0</ojdbc6.version>
         <maven.compiler.version>1.6</maven.compiler.version>
         <jasperreports.version>3.7.3</jasperreports.version>
         <log4j.version>1.2.16</log4j.version>
@@ -165,8 +165,8 @@
         <!-- Oracle jdbc dependency -->
         <dependency>
             <groupId>com.oracle</groupId>
-            <artifactId>ojdbc14</artifactId>
-            <version>${ojdbc14.version}</version>
+            <artifactId>ojdbc6</artifactId>
+            <version>${ojdbc6.version}</version>
         </dependency>
 
         <!-- Hibernate core -->
