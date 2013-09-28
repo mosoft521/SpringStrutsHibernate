@@ -1,0 +1,15 @@
+#忽略所有.classpath文件(包括子目录下的)
+.classpath
+#忽略所有.idea文件(包括子目录下的)
+.idea
+.project
+.springBeans
+#忽略所有后缀名为idea的文件(包括子目录下的)
+*.iml
+#忽略.settings目录
+.settings/
+#忽略target目录
+target/
+#忽略logs目录
+logs/
+
